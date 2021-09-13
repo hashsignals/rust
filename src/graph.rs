@@ -53,7 +53,7 @@ impl Drop for GraphImpl {
     }
 }
 
-////////////////////////
+/////////////////////////
 
 /// `ImportGraphDefOptions` holds options that can be passed to
 /// `Graph::import_graph_def`.
@@ -71,7 +71,7 @@ impl_drop!(ImportGraphDefOptions, TF_DeleteImportGraphDefOptions);
 
 impl ImportGraphDefOptions {
     /// Set the prefix to be prepended to the names of nodes in `graph_def` that will
-    /// be imported into `graph`.
+    /// be imported into `graph`
     pub fn set_prefix(&mut self, prefix: &str) -> std::result::Result<(), NulError> {
         let s = CString::new(prefix)?;
         unsafe {
