@@ -22,8 +22,8 @@ use std::marker::PhantomData;
 use std::ops;
 use std::rc::Rc;
 
-/// Denotes operator precedence.
-/// Used for displaying expressions as strings.
+/// Denotes operator precedence
+/// Used for displaying expressions as strings
 #[derive(Ord, PartialOrd, Eq, PartialEq, Debug, Copy, Clone)]
 pub enum OpLevel {
     /// Assignment.
