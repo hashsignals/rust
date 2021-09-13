@@ -53,6 +53,7 @@ fn join(sep: &str, left: &str, right: &str) -> String {
 ///
 /// Name examples:
 ///
+///
 /// ```
 /// # use tensorflow::DataType;
 /// # use tensorflow::Scope;

@@ -6,7 +6,7 @@
 
 // Note that we allow trivial_casts, trivial_numeric_casts, and
 // unused_qualifications, because they can show up when casting to a C type that
-// may differ between platforms.
+// may differ between platforms
 #![warn(
     missing_copy_implementations,
     missing_debug_implementations,
