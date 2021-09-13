@@ -160,7 +160,7 @@ impl<'a> VariableBuilder<'a> {
     }
 }
 
-////////////////////////
+///////////////////////
 
 #[cfg(test)]
 mod tests {
