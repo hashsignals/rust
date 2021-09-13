@@ -152,7 +152,7 @@ where
         Ok(())
     }
 
-    /// The length of the next record. Does not checksum the length.
+    /// The length of the next record. Doesn't checksum the length.
     /// Use this to find out how large the byte slice needs to be to read the next record.
     pub fn peek_next_len(&mut self) -> Result<Option<u64>, RecordReadError> {
         let len = self.read_next_len_unchecked()?;
