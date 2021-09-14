@@ -23,7 +23,7 @@ impl<'a> MinimizeOptions<'a> {
     }
 }
 
-/// Options for `Optimizer::compute_gradientz`
+/// Options for `Optimizer::compute_gradientss`.
 #[derive(Default, Debug, Clone)]
 pub struct ComputeGradientsOptions<'a> {
     variables: &'a [Variable],
@@ -161,7 +161,7 @@ impl Optimizer for GradientDescentOptimizer {
     }
 }
 
-/// Optimizer that implements the Adadelta algorithm.
+/// Optimizer that implements the Adadelta algorithm
 ///
 /// See [M. D. Zeiler](https://arxiv.org/abs/1212.5701).
 #[derive(Debug)]

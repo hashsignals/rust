@@ -2158,6 +2158,8 @@ pub use crate::while_loop::*;
 
 ////////////////////////
 
+
+/// Tests
 #[cfg(test)]
 mod tests {
     use super::*;
