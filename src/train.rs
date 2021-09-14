@@ -23,7 +23,7 @@ impl<'a> MinimizeOptions<'a> {
     }
 }
 
-/// Options for `Optimizer::compute_gradients`.
+/// Options for `Optimizer::compute_gradientz`
 #[derive(Default, Debug, Clone)]
 pub struct ComputeGradientsOptions<'a> {
     variables: &'a [Variable],
