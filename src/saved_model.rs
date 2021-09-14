@@ -30,7 +30,7 @@ use std::path::Path;
 
 /// Key in the signature def map for `default` serving signatures. The default
 /// signature is used in inference requests where a specific signature was not
-/// specified.
+/// specified
 pub const DEFAULT_SERVING_SIGNATURE_DEF_KEY: &str = "serving_default";
 
 /// Classification inputs.

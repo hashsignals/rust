@@ -187,7 +187,7 @@ impl AdadeltaOptimizer {
         }
     }
 
-    /// Sets the learning rate.  Default is 0.001.
+    /// Sets the learning rate.  Default is 0.001
     pub fn set_learning_rate<T: Into<Output>>(&mut self, learning_rate: T) {
         self.learning_rate = Some(learning_rate.into());
     }
