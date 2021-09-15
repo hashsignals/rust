@@ -30,7 +30,7 @@ pub use random_ops::*;
 mod ops_impl;
 pub use ops_impl::*;
 
-///tests
+/// tests
 #[cfg(test)]
 mod tests {
     use super::*;
